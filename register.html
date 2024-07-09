@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mat.js"></script>
+</head>
+<body>
+    <header class="tm-header">
+        <img class="tm-logo" src="shaadi.png" alt="Shaadi.com">
+        <nav class="tm-nav">
+            <div>
+                <ul>
+                    <li class="tm-nav1"><a href="mat.html">About us</a></li>
+                    <li class="tm-nav1"><a href="login.html">Login</a></li>
+                    <li class="tm-nav1"><a href="register.php">Register</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="Register-page">
+        <div id="reg">
+            <form id="form-1" action="register.php" method="post" enctype="multipart/form-data">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name" value="name">Name</label>
+                            <input type="text" name="name" required><br>
+                            
+                        </td>
+                        <td>
+                            <label for="">Gender</label>
+                            <input type="radio" value="male" name="gender" required>Male
+                            <input type="radio" value="female" name="gender" required>Female<br>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date" value="dateofbirth">DOB</label>
+                            <input type="date" name="Date of birth" required><br>
+                            
+                        </td>
+                        <td>
+                            <label for="religion">religion</label>
+                            <select name="religion" id="religion">
+                                <option value="hindu">hindu</option>
+                                <option value="muslim">muslim</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mother tongue" value="mother">mother tongue:</label>
+                            <input type="text" name="Date of birth" ><br>
+                            
+                        </td>
+                        <td>
+                            <label for="mobile no" value="mob">mobile No:</label>
+                            <input type="text" name="Date of birth" ><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email" value="email">Email id:</label>
+                            <input type="email" name="name" required><br>
+                            
+                        </td>
+                        <td>
+                            <label for="password" value="email">password:</label>
+                            <input type="password" name="name" required><br>
+
+                        </td><br>
+                        <td><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+    <footer class="tm-footer">
+        <div class="tm-us">
+            <p class="bold">About us</p>
+            <p>Shaadi.com, one of India's best known brands and the world's 
+                largest matrimonial service was founded By redefining the 
+                way Indian brides and grooms meet for marriage, 
+                Shaadi.com has created a world-renowned service that has touched over 35 million people</p>
+        </div>
+        <div class="tm-address">
+            <p class="bold">contact</p>
+            <p>Tirumalai Samudram,Tanjore<br>
+                Phone : 96778122313<br>
+                Email : shaadi@info.com</p>
+        </div>
+    </footer>
+</body>
+</html>

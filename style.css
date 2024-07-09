@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tm-header{
+    background: #af9735;
+    display: block;
+    padding: 20px;
+}
+.tm-logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+.tm-nav{
+    max-width: 90%;
+    border: 2px solid #312e3a;
+    display: block;
+    margin: 30px auto 5px auto;
+}
+.tm-nav div{
+    display:table;
+    padding: 10px;
+    margin:0px auto;
+}
+.tm-nav div ul li{
+    display: inline-block;
+}
+.tm-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+.tm-nav div ul li a:hover{
+    color: red;
+}
+.tm-footer{
+    background: #ab9334;
+   display: block;
+   padding: 10px;
+   position: relative;
+   bottom: 0%;
+
+}
+
+.tm-us{
+   display: inline-table;
+   max-width: 30%;
+   width: 30%;
+   margin: 2% 0 2% 4%
+   
+}
+
+.tm-address{
+   display: inline-table;
+   max-width: 30%;
+   width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+   color: #ec3c6a;
+   font-size: 1.5vw;
+   font-weight: 700;
+   padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+   color: #fff;
+   font-size: 1.2vw;
+}
+.main{
+    top: 40px;
+    bottom: 40px;
+}
+.main p{
+    font-size: larger;
+    font-weight: 550;
+    color: #ec3c6a;
+}
+.main h1{
+    width: 30%;
+    text-align: center;
+}
